@@ -1,0 +1,30 @@
+/* Glowing Text Effect */
+.glowing-text-light {
+  text-shadow: 0 0 10px rgb(231, 225, 225), 0 0 20px rgba(215, 16, 16, 0.4); /* Slightly softer glow */
+}
+
+.glowing-text-dark {
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.6), 0 0 20px rgba(255, 255, 255, 0.4); /* Slightly softer glow */
+}
+
+/* Optional: Custom button styles */
+.custom-button {
+  background-color: #4b5563; /* Example gray background */
+  color: #ffffff; /* White text */
+  padding: 0.5rem 1rem; /* Spacing */
+  border-radius: 0.5rem; /* Rounded corners */
+  transition: all 0.3s ease-in-out; /* Smooth transitions */
+  display: inline-flex; /* Make sure it's treated as a button */
+  align-items: center; /* Center text inside button */
+  justify-content: center; /* Center text inside button */
+}
+
+/* Optional: Adding hover effect to custom button */
+.custom-button:hover {
+  background-color: #374151; /* Slightly darker gray on hover */
+}
+
+/* Optional: Focus effect for accessibility */
+.custom-button:focus {
+  outline: 2px solid #fbbf24; /* Yellow border for focus */
+}
